@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degradê</title>
+</head>
+<body>
+    <h1>Degradês nas CSS</h1>
+    <h2>Gradientes lineares</h2>
+    <h3>Gradientes com posições nomeadas (exemplo: to top, to left)</h3>
+    <div style="
+        background: linear-gradient(to bottom, white, blue);
+        width: 100px;
+        height: 100px;
+    "></div>
+    <h3>Gradientes especificando a inclinação do ângulo</h3>
+    <div style="
+        background: linear-gradient(150deg, #4A61CA, #C33B96, #F95149, #FFB64F);
+        width: 100px;
+        height: 100px;
+    "></div>
+    <h3>Gradientes especificando a inclinação do ângulo + porcentagem de cada cor</h3>
+    <div style="
+        background: linear-gradient(150deg, #4A61CA 50%, #C33B96, #F95149, #FFB64F);
+        width: 100px;
+        height: 100px;
+    "></div>
+    <h2>Gradientes radiais</h2>
+    <h3>Círculo</h3>
+    <div style="
+        background: radial-gradient(circle, #4A61CA, #C33B96);
+        width: 100px;
+        height: 100px;
+    "></div>
+    <h3>Círculo + porcentagem de cada cor</h3>
+    <div style="
+        background: radial-gradient(circle, #4A61CA 40%, #C33B96);
+        width: 100px;
+        height: 100px;
+    "></div>
+</body>
+</html>

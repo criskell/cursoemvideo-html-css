@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: rgb(4, 109, 0);
+}
+
+h3 {
+    color: rgb(56, 82, 54);
+}
+
+#principal {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: red;
+}
+
+.avancado {
+    color: yellow;
+}

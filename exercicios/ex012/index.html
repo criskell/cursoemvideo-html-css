@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <video src="midia/vogelimkafig.mp4" poster="imagens/poster.jpg" preload="metadata" controls width="500" height="300">
+        <p>O elemento <code>video</code> não é suportado pelo navegador.</p>
+    </video>
+    <video poster="imagens/poster.jpg" preload="auto" width="500" height="300" controls>
+        <source src="imagens/poster.jpg" type="video/mp4">
+        <source src="imagens/posteaar.jpg" type="video/mp4">
+        <source src="midia/vogelimkafig.mp4" type="video/mp4">
+        <p>O elemento <code>video</code> não é suportado.</p>
+    </video>
+    <h2>Vídeos externos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QV5ZBuNJMx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

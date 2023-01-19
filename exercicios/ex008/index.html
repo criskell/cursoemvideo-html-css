@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+
+    <h2>Códigos e textos pré-formatados</h2>
+    <pre>
+        teste</pre>
+    <code>
+def esteEhUmCodigo(argumentoSomentePosicional, /, argumentoPosicionalOuNomeado, *, argumentoSomenteNomeado):
+    # o code por padrão não irá preservar os caracteres de espaço em branco
+    </code>
+    <pre>
+        <code>
+print('A tag pre preserva os caracteres de espaço em branco, assim')
+if True:
+    print('Mantemos a indentação')
+print('A tag pre é utilizada para exibir textos pré-formatados')
+        </code>
+    </pre>
+
+    <h2>Citações</h2>
+
+    <h3>Citações simples</h3>
+    <p>Podemos inserir citações simples no código utilizando a tag <strong>q</strong>: <q>Esta é uma citação</q> - Albert isten</p>
+
+    <h3>Citações completa</h3>
+    <p>Podemos inserir uma citação mais completa utilizando as citações em bloco que faz a citação ir para a próxima linha, ter um recuo para a direita. De acordo com o et bilu:</p>
+    <blockquote>
+        Busquem comercimento.
+    </blockquote>
+    <p>Podemos colocar um atributo <strong>cite</strong> para referenciar o local original da citação.</p>
+    <blockquote cite="https://google.com">
+        Exemplo de citação em bloco que vai para a próxima linha e tem um recuo para a direita.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Podemos colocar abreviações num texto utilizando a tag <strong>abbr</strong>.</p>
+    <p>Passando o mouse por cima da abreviação, podemos ver a forma completa.</p>
+    <p><abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading StyleSheets">CSS</abbr> são abreviações. Passe o mouse por cima.</p>
+
+    <h2>Textos LTR e RTL</h2>
+    <p>Podemos criar textos LTR ou RTL utilizando a tag <strong>bdo</strong> junto com o seu atributo dir (direction - direção).</p>
+    <bdo dir="ltr">Texto esquerda-para-direta</bdo>
+    <bdo dir="rtl">Texto direita-para-esquerda</bdo>
+</body>
+</html>
